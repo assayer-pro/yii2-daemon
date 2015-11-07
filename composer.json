@@ -1,0 +1,32 @@
+{
+  "name": "assayer-pro/yii2-daemon",
+  "description": "Running tasks as daemons for Yii2",
+  "homepage": "https://github.com/assayer-pro/yii2-daemon",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+        "name": "Assayer Pro",
+        "homepage" : "https://github.com/assayer-pro"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "~2.0.0",
+    "yiisoft/yii2-faker": "*",
+    "codeception/codeception": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "assayerpro\\daemon\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
